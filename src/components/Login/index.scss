@@ -1,0 +1,37 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #1df56c, #16b852);
+
+  .card {
+    position: relative;
+    width: 320px;
+    height: 160px;
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(#000, 0.2);
+    border-radius: 5px;
+
+    .logo {
+      position: absolute;
+      top: 16px;
+      left: calc(50% - 60px);
+      width: 120px;
+      object-fit: contain;
+    }
+
+    .btn-login {
+      position: absolute;
+      bottom: 40px;
+      left: calc(50% - 80px);
+      width: 160px;
+      height: 36px;
+      background: #19d860;
+      font-weight: bold;
+      color: #fff;
+    }
+  }
+}
